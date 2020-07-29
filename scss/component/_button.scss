@@ -1,0 +1,38 @@
+@media (min-width: $break-med) {
+  .btn {
+    padding: $gutter 30px;
+  }
+  .btn + .btn {
+    margin-left: $gutter;
+  }
+}
+
+.btn {
+  margin-top: 15px;
+  width: 100%;
+  color: $btn-txt;
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.default {
+  background-color: $aqua;
+}
+
+.error {
+  background-color: $error-red;
+}
+
+.info {
+  background-color: $info-purple;
+}
+
+.success {
+  background-color: $success-green;
+}
+
+.warning {
+  background-color: $warning-orange;
+}

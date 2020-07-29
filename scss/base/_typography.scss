@@ -1,0 +1,37 @@
+* {
+  font-family: 'Lato', sans-serif;
+  color: $text-grey;
+}
+
+p{
+  line-height: 1.45em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.headline-primary{
+  margin-left: $gutter;
+  color: $teal;
+}
+
+.headline-secondary,
+.blockquote{
+  font-weight: 300;
+}
+
+.link{
+  color: $aqua;
+  font-weight: 700;
+}
+
+.blockquote{
+  font-size: 1.5em;
+  font-weight: 300;
+  font-style: italic;
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 8px solid $teal;
+  border-radius: 5px;
+}
